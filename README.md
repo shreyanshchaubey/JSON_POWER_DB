@@ -50,8 +50,11 @@ It is micro project built using JSONpowerDB to understand basics of this databas
 
 # Demo
 ![image](https://github.com/shreyanshchaubey/JSON_POWER_DB/assets/135205568/f1f24f11-e91c-444e-ba5e-170be86d7fe3)
+
 ![image](https://github.com/shreyanshchaubey/JSON_POWER_DB/assets/135205568/95d81cbe-e6fa-482a-a01e-b41b9a75e206)
+
 ![image](https://github.com/shreyanshchaubey/JSON_POWER_DB/assets/135205568/60d17e19-7e35-4abc-8077-ca0b348da695)
+
 ![image](https://github.com/shreyanshchaubey/JSON_POWER_DB/assets/135205568/aacd2454-9f5b-47cd-a2a7-abec310fd0bd)
 
 # Release History
