@@ -17,16 +17,6 @@ It is micro project built using JSONpowerDB to understand basics of this databas
 - Standardisation of API development framework makes the development process easy, more readable, and less error prone.
 - Multiple security layers.
 
-# Release History
-
-## version 1.0.0
-- First proper release.
-- Performs few basic CRUD operations.
-
-# Resources
-- https://login2explore.com/jpdb/docs.html
-- http://api.login2explore.com:5577/user/dashboard.html
-
 # working
 ## Step 1: Form Initialization
 
@@ -64,7 +54,15 @@ It is micro project built using JSONpowerDB to understand basics of this databas
 ![image](https://github.com/shreyanshchaubey/JSON_POWER_DB/assets/135205568/60d17e19-7e35-4abc-8077-ca0b348da695)
 ![image](https://github.com/shreyanshchaubey/JSON_POWER_DB/assets/135205568/aacd2454-9f5b-47cd-a2a7-abec310fd0bd)
 
+# Release History
 
+## version 1.0.0
+- First proper release.
+- Performs few basic CRUD operations.
+
+# Resources
+- https://login2explore.com/jpdb/docs.html
+- http://api.login2explore.com:5577/user/dashboard.html
 
 
 
