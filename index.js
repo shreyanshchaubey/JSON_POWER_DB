@@ -1,5 +1,5 @@
 var token = "90931275|-31949327982200659|90961042";
-var dbName = "PROJECT-MANAGEMENT";
+var dbName = "PROJECT-MNGMT";
 var relName = "PROJECT-TABLE";
 
 function resetForm() {
