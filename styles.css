@@ -1,0 +1,63 @@
+#body{
+  background-color: rgb(59, 58, 58);
+  font: roboto slab;
+}
+#main_body{
+  background-color: rgb(255, 255, 255);
+  margin: 5% 7%;
+}
+
+
+#projectID,#deadline,#assignmentDate,#assignedTo,#projectName{
+  padding-top: 1%;
+  border-radius: 0%;
+}
+
+form {
+  padding: 2% 9%;
+  }
+
+h6{
+  padding-left: 20%;  
+  font-weight: lighter;
+  color: rgb(189, 189, 189);
+}
+
+h2{
+  font-size: 10%;
+  font-weight: 1000;
+  padding: 0% 5%;
+  padding-top: 3%;
+}
+
+  .bt {
+      background: #0091ff;
+      color: #FFFFFF;
+      font-family: roboto slab;
+      font-size: large;
+      padding: 0.5% 2%;
+      text-decoration: none;
+      display: inline-block;
+      cursor: pointer;
+      text-align: center;
+ }
+.bt:disabled,.bt[disabled]{
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+}
+
+#save{
+  margin-left: 30%;
+}
+
+#update ,#reset{
+  margin-left: 3%;
+}
+
+.non-pk{
+  padding: 1% 0%;
+}
+.pk{
+  padding-bottom: 1% 0% ;
+}

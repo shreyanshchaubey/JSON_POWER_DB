@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <title>Project Management Form</title>
+</head>
+<body onload = "resetForm()" id="body">
+  <div id="main_body">
+    <h2>Project Management Form</h2>
+    <h6>Made by Shreyansh Chaubey</h6>
+    <form>
+      <div class="pk">
+        <label for="projectID" class="label">Project ID</label>
+        <input type="text" class="form-control" id="projectID" oninput="recordcheck()">
+        </div>
+        <div class="non-pk">
+          <label for="projectName" class="label">Project Name</label>
+          <input type="text" class="form-control" id="projectName">
+        </div>
+        <div class="non-pk">
+          <label for="assignedTo" class="label">Assigned To</label>
+          <input type="text" class="form-control" id="assignedTo">
+        </div>
+        <div class="non-pk">
+          <label for="assignmentDate" class="label">Assignment Date</label>
+          <input type="date" class="form-control" id="assignmentDate">
+        </div>
+        <div class="non-pk">
+          <label for="deadline" class="label">Deadline</label>
+          <input type="date" class="form-control" id="deadline">
+        </div>
+        <centre><div>
+              <input type="button" name="save" id="save" class="bt" placeholder="submit" value="Submit" onclick="Register();">
+              <input type="button" name="update" id="update"  class="bt" value="Update" onclick="Update()">
+              <input type="button" name="reset" id="reset"  class="bt" value="Reset" onclick="resetForm()">
+      </div></centre>
+        </form>
+      </div>
+        
+    <script src="index.js" charset="utf-8"></script>
+    <script src="http://login2explore.com/jpdb/resources/js/0.0.3/JPDBObject.js"></script>
+    <script src="http://login2explore.com/jpdb/resources/js/0.0.4/jpdb-commons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.js" integrity="sha512-8Z5++K1rB3U+USaLKG6oO8uWWBhdYsM3hmdirnOEWp8h2B1aOikj5zBzlXs8QOrvY9OxEnD2QDkbSKKpfqcIWw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
