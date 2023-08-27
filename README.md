@@ -28,31 +28,31 @@ It is micro project built using JSONpowerDB to understand basics of this databas
 - http://api.login2explore.com:5577/user/dashboard.html
 
 # working
-##Step 1: Form Initialization
+## Step 1: Form Initialization
 
 -Upon loading the page or when any control button is clicked, an initially empty form will be displayed. The cursor will automatically focus on the first input field, which corresponds to the primary key of the dataset. All other fields and buttons on the form will be disabled initially.
 
-##Step 2: Data Entry
+## Step 2: Data Entry
 
 -The user begins by entering data into the primary key field. If the entered primary key does not exist in the database, the [Save] and [Reset] buttons become active. The cursor then moves to the next available field, allowing the user to fill in the rest of the form.
 
 -It's important to note that the form won't allow submission if there are empty fields. The user needs to ensure all required fields are filled with valid data.
 
-##Step 3: Saving Data
+## Step 3: Saving Data
 
 -Once the user completes filling out the form, they can click the [Save] button. This action stores the entered data into the database. After successful data storage, the process returns to Step 2 for further data entry.
 
-##Step 4: Data Update
+## Step 4: Data Update
 
 -In case the user enters a primary key that matches an existing record in the database, the form displays the existing data associated with that key. The [Update] and [Reset] buttons become active, and the user can make changes to the other form fields while the primary key field remains disabled.
 
 -As before, the form ensures that no fields are left empty before proceeding.
 
-##Step 5: Updating Data
+## Step 5: Updating Data
 
 -When the user clicks the [Update] button, the form updates the corresponding data in the database with the newly entered values. After successful updating, the process returns to Step 2 for further interactions.
 
-##Step 6: Resetting the Form
+## Step 6: Resetting the Form
 
 -At any point during data entry or update, the user can click the [Reset] button. This action reverts the form to its initial state in Step 2, with the cursor focused on the primary key field.
 
